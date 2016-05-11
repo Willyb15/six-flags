@@ -1,0 +1,23 @@
+
+#footer{
+	background: #ac1e16;
+	padding-bottom: 20px;
+	#footer-inner{
+		max-width: 900px;
+		margin: auto;
+		ul{
+			display: inline-block;
+			max-width: 900px;
+			margin: auto;
+			li{
+				// float: left;
+				list-style: none;
+				font-size: 12px;
+				color: #f6b9b5;
+				&:hover{
+					color: #ffcb00;
+				}
+			}		
+		}
+	}
+}

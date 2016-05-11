@@ -128,30 +128,13 @@ body {
   font-weight: bolder;
 }
 
-/* line 2, ../compass/sass/_body.scss */
-#picture-wrapper img {
-  width: 104%;
-  margin-left: -28px;
-}
-
-/* line 10, ../compass/sass/_body.scss */
-#zone-content .ribbon-bg img {
-  width: 104%;
-  margin: -165px 0px 0px -28px;
-  position: fixed;
-}
-/* line 15, ../compass/sass/_body.scss */
-#zone-content .radiant-bg img {
-  width: 100%;
-}
-
-/* line 19, ../compass/sass/_body.scss */
+/* line 1, ../compass/sass/_body.scss */
 #main-content {
   position: relative;
   background-color: #a91a16;
   float: left;
 }
-/* line 26, ../compass/sass/_body.scss */
+/* line 8, ../compass/sass/_body.scss */
 #main-content #swoosh {
   position: absolute;
   height: 632px;
@@ -159,14 +142,14 @@ body {
   background: url(../images/sf-ribbons.png) bottom center no-repeat;
   top: 100px;
 }
-/* line 34, ../compass/sass/_body.scss */
+/* line 16, ../compass/sass/_body.scss */
 #main-content #promotions {
-  max-width: 900px;
+  max-width: 930px;
   position: relative;
   margin-top: 125px;
   margin: auto;
 }
-/* line 39, ../compass/sass/_body.scss */
+/* line 21, ../compass/sass/_body.scss */
 #main-content #promotions .promo {
   position: relative;
   width: 32%;
@@ -176,7 +159,7 @@ body {
   margin-left: 1%;
   margin-bottom: 40px;
 }
-/* line 47, ../compass/sass/_body.scss */
+/* line 29, ../compass/sass/_body.scss */
 #main-content #promotions .promo .promo-title {
   color: #855206;
   font-size: 26px;
@@ -188,49 +171,49 @@ body {
   position: absolute;
   z-index: 10;
 }
-/* line 58, ../compass/sass/_body.scss */
+/* line 40, ../compass/sass/_body.scss */
 #main-content #promotions .promo .promo-image {
   position: relative;
   z-index: 1;
 }
-/* line 62, ../compass/sass/_body.scss */
+/* line 44, ../compass/sass/_body.scss */
 #main-content #promotions .promo .promo-text-title {
   font-size: 20px;
   color: white;
 }
-/* line 65, ../compass/sass/_body.scss */
+/* line 47, ../compass/sass/_body.scss */
 #main-content #promotions .promo .promo-text-title:hover {
   color: #ffcb00;
 }
-/* line 70, ../compass/sass/_body.scss */
+/* line 52, ../compass/sass/_body.scss */
 #main-content #promotions .promo .promo-text-wrapper {
   background-color: black;
   padding: 10px;
 }
-/* line 73, ../compass/sass/_body.scss */
+/* line 55, ../compass/sass/_body.scss */
 #main-content #promotions .promo .promo-text-wrapper .promo-text {
   font-size: 12px;
   color: #999;
 }
-/* line 86, ../compass/sass/_body.scss */
+/* line 68, ../compass/sass/_body.scss */
 #main-content #promotions .promo .promo-small {
   padding: 10px;
   background-color: #dcd9cb;
   overflow: hidden;
   border-bottom: 1px solid #cacaca;
 }
-/* line 91, ../compass/sass/_body.scss */
+/* line 73, ../compass/sass/_body.scss */
 #main-content #promotions .promo .promo-small .promo-small-image {
   float: left;
   width: 35%;
   box-sizing: border-box;
   padding-right: 5px;
 }
-/* line 97, ../compass/sass/_body.scss */
+/* line 79, ../compass/sass/_body.scss */
 #main-content #promotions .promo .promo-small .promo-small-text-title {
   font-size: 17px;
 }
-/* line 100, ../compass/sass/_body.scss */
+/* line 82, ../compass/sass/_body.scss */
 #main-content #promotions .promo .promo-small .promo-small-text {
   font-size: 13px;
   float: right;

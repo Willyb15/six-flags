@@ -60,243 +60,55 @@
 		</div>
 
 		<div id="promotions">
-			<div class="promo">
-				<div class="promo-title">
-					Online Store
-				</div>
-				<div class="promo-image">
-					<img src="images/teaser_sp_combo-ww.jpg">
-				</div>
-				<div class="promo-text-wrapper">
-					<div class="promo-text-title">
-						Discount Season Passes
-					</div>
-					<div class="promo-text">
-						Buy Season Passes now and save! Or get Combo Passes for unlimited visits to Six Flags Over Georgia.				
-					</div>
-				</div>
-				<div class="promo-small">
-					<div class="promo-small-image">
-						<img src="images/chickenstrips_90x68_0.png">
-					</div>
-					<div class="promo-small-text-title">
-						Online Meal Deals
-					</div>
-					<div class="promo-small-text">
-						Save time and money by printing meal deals online.
-					</div>
-				</div>
-				<div class="promo-small">
-					<div class="promo-small-image">
-						<img src="images/burger-90x68.jpg">
-					</div>
-					<div class="promo-small-text-title">
-						Dining Passes
-					</div>
-					<div class="promo-small-text">
-						Enjoy lunch, dinner and a snack on each visit.
-					</div>
-				</div>
-			</div>
+		<?php
+			// for($i=0; $i<count($promo_array); $i++){
+			// }		
+		?>
 
-			<div class="promo">
-				<div class="promo-title">
-					Online Store
-				</div>
-				<div class="promo-image">
-					<img src="images/teaser_sp_combo-ww.jpg">
-				</div>
-				<div class="promo-text-wrapper">
-					<div class="promo-text-title">
-						Discount Season Passes
+			<?php foreach($promo_array as $promo): ?>
+				<div class="promo">
+					<div class="promo-title">
+						<?php print $promo['title']; ?>
 					</div>
-					<div class="promo-text">
-						Buy Season Passes now and save! Or get Combo Passes for unlimited visits to Six Flags Over Georgia.				
+					<div class="promo-image">
+						<img src="<?php print $promo['image'];?>">
 					</div>
-				</div>
-				<div class="promo-small">
-					<div class="promo-small-image">
-						<img src="images/chickenstrips_90x68_0.png">
+					<div class="promo-text-wrapper">
+						<div class="promo-text-title">
+							<?php print $promo['text_header']; ?>
+						</div>
+						<div class="promo-text">
+							<?php print $promo['text_body'];?>
+						</div>
 					</div>
-					<div class="promo-small-text-title">
-						Online Meal Deals
+					<div class="promo-small">
+						<div class="promo-small-image">
+							<img src="<?php print $promo['lower_image'];?>">
+						</div>
+						<div class="promo-small-text-title">
+							<?php print $promo['lower_header'];?>
+						</div>
+						<div class="promo-small-text">
+							Save time and money by printing meal deals online.
+						</div>
 					</div>
-					<div class="promo-small-text">
-						Save time and money by printing meal deals online.
+					<div class="promo-small">
+						<div class="promo-small-image">
+							<img src="<?php print $promo['lower_image2'];?>">
+						</div>
+						<div class="promo-small-text-title">
+							<?php print $promo['lower_header2'];?>
+						</div>
+						<div class="promo-small-text">
+							<?php print $promo['lower_text2'];?>
+						</div>
 					</div>
-				</div>
-				<div class="promo-small">
-					<div class="promo-small-image">
-						<img src="images/burger-90x68.jpg">
-					</div>
-					<div class="promo-small-text-title">
-						Dining Passes
-					</div>
-					<div class="promo-small-text">
-						Enjoy lunch, dinner and a snack on each visit.
-					</div>
-				</div>
-			</div>
+				</div>	
+			<?php endforeach; ?>
 
-			<div class="promo">
-				<div class="promo-title">
-					Online Store
-				</div>
-				<div class="promo-image">
-					<img src="images/teaser_sp_combo-ww.jpg">
-				</div>
-				<div class="promo-text-wrapper">
-					<div class="promo-text-title">
-						Discount Season Passes
-					</div>
-					<div class="promo-text">
-						Buy Season Passes now and save! Or get Combo Passes for unlimited visits to Six Flags Over Georgia.				
-					</div>
-				</div>
-				<div class="promo-small">
-					<div class="promo-small-image">
-						<img src="images/chickenstrips_90x68_0.png">
-					</div>
-					<div class="promo-small-text-title">
-						Online Meal Deals
-					</div>
-					<div class="promo-small-text">
-						Save time and money by printing meal deals online.
-					</div>
-				</div>
-				<div class="promo-small">
-					<div class="promo-small-image">
-						<img src="images/burger-90x68.jpg">
-					</div>
-					<div class="promo-small-text-title">
-						Dining Passes
-					</div>
-					<div class="promo-small-text">
-						Enjoy lunch, dinner and a snack on each visit.
-					</div>
-				</div>
-			</div>
-
-			<div class="promo">
-				<div class="promo-title">
-					Online Store
-				</div>
-				<div class="promo-image">
-					<img src="images/teaser_sp_combo-ww.jpg">
-				</div>
-				<div class="promo-text-wrapper">
-					<div class="promo-text-title">
-						Discount Season Passes
-					</div>
-					<div class="promo-text">
-						Buy Season Passes now and save! Or get Combo Passes for unlimited visits to Six Flags Over Georgia.				
-					</div>
-				</div>
-				<div class="promo-small">
-					<div class="promo-small-image">
-						<img src="images/chickenstrips_90x68_0.png">
-					</div>
-					<div class="promo-small-text-title">
-						Online Meal Deals
-					</div>
-					<div class="promo-small-text">
-						Save time and money by printing meal deals online.
-					</div>
-				</div>
-				<div class="promo-small">
-					<div class="promo-small-image">
-						<img src="images/burger-90x68.jpg">
-					</div>
-					<div class="promo-small-text-title">
-						Dining Passes
-					</div>
-					<div class="promo-small-text">
-						Enjoy lunch, dinner and a snack on each visit.
-					</div>
-				</div>
-			</div>
-
-
-			<div class="promo">
-				<div class="promo-title">
-					Online Store
-				</div>
-				<div class="promo-image">
-					<img src="images/teaser_sp_combo-ww.jpg">
-				</div>
-				<div class="promo-text-wrapper">
-					<div class="promo-text-title">
-						Discount Season Passes
-					</div>
-					<div class="promo-text">
-						Buy Season Passes now and save! Or get Combo Passes for unlimited visits to Six Flags Over Georgia.				
-					</div>
-				</div>
-				<div class="promo-small">
-					<div class="promo-small-image">
-						<img src="images/chickenstrips_90x68_0.png">
-					</div>
-					<div class="promo-small-text-title">
-						Online Meal Deals
-					</div>
-					<div class="promo-small-text">
-						Save time and money by printing meal deals online.
-					</div>
-				</div>
-				<div class="promo-small">
-					<div class="promo-small-image">
-						<img src="images/burger-90x68.jpg">
-					</div>
-					<div class="promo-small-text-title">
-						Dining Passes
-					</div>
-					<div class="promo-small-text">
-						Enjoy lunch, dinner and a snack on each visit.
-					</div>
-				</div>
-			</div>
-
-			<div class="promo">
-				<div class="promo-title">
-					Online Store
-				</div>
-				<div class="promo-image">
-					<img src="images/teaser_sp_combo-ww.jpg">
-				</div>
-				<div class="promo-text-wrapper">
-					<div class="promo-text-title">
-						Discount Season Passes
-					</div>
-					<div class="promo-text">
-						Buy Season Passes now and save! Or get Combo Passes for unlimited visits to Six Flags Over Georgia.				
-					</div>
-				</div>
-				<div class="promo-small">
-					<div class="promo-small-image">
-						<img src="images/chickenstrips_90x68_0.png">
-					</div>
-					<div class="promo-small-text-title">
-						Online Meal Deals
-					</div>
-					<div class="promo-small-text">
-						Save time and money by printing meal deals online.
-					</div>
-				</div>
-				<div class="promo-small">
-					<div class="promo-small-image">
-						<img src="images/burger-90x68.jpg">
-					</div>
-					<div class="promo-small-text-title">
-						Dining Passes
-					</div>
-					<div class="promo-small-text">
-						Enjoy lunch, dinner and a snack on each visit.
-					</div>
-				</div>
-			</div>			
+	
 		</div>
 	</div>
-
 	<div id="footer">
 		<div id="footer-inner">
 			<ul>

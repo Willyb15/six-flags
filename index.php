@@ -1,6 +1,15 @@
 <?php
 	include 'includes/db_connect.php';
+	$query = 'SELECT * FROM promos';
+	$result = mysql_query($query);
+	while($row = mysql_fetch_assoc($result)){
+		$promo_array[] = $row;
+	}
+	// print "<pre>";
+	// print_r($promo_array);
+	// exit;
 ?>
+
 
 <!DOCTYPE html>
 <html>
@@ -78,7 +87,7 @@
 							<?php print $promo['text_header']; ?>
 						</div>
 						<div class="promo-text">
-							<?php print $promo['text_body'];?>
+							<?php print $promo['text_body']; ?>
 						</div>
 					</div>
 					<div class="promo-small">
@@ -89,7 +98,7 @@
 							<?php print $promo['lower_header'];?>
 						</div>
 						<div class="promo-small-text">
-							Save time and money by printing meal deals online.
+							<?php print $promot['lower_text'];?>
 						</div>
 					</div>
 					<div class="promo-small">
@@ -100,7 +109,7 @@
 							<?php print $promo['lower_header2'];?>
 						</div>
 						<div class="promo-small-text">
-							<?php print $promo['lower_text2'];?>
+							<?php print $promo['lower_text2']; ?>
 						</div>
 					</div>
 				</div>	
@@ -109,6 +118,7 @@
 	
 		</div>
 	</div>
+
 	<div id="footer">
 		<div id="footer-inner">
 			<ul>
